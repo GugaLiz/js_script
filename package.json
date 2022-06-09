@@ -1,0 +1,34 @@
+{
+  "name": "my_script_app",
+  "version": "1.0.0",
+  "description": "to learn srcipt",
+  "main": "app.js",
+  "scripts": {
+    "test": "run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GugaLiz/script.git"
+  },
+  "keywords": [
+    "script"
+  ],
+  "author": "GugaLiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GugaLiz/script/issues"
+  },
+  "homepage": "https://github.com/GugaLiz/script#readme",
+  "dependencies": {
+    "@xfe-team/http-request-text-parser": "^0.0.1",
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "gka": "^2.8.6",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.25.3",
+    "node-schedule": "^1.3.2",
+    "nodemailer": "^6.4.6"
+  }
+}
